@@ -7,6 +7,9 @@
 import React, { memo } from "react";
 // import PropTypes from 'prop-types';
 import { Card, Button, Accordion } from "react-bootstrap";
+import pluginId from "../../pluginId";
+
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -15,14 +18,16 @@ const HomePage = () => {
         <div className="col-3">
           <Card style={{ width: "100%" }}>
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title>Menu wireframe</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Here can be some kind of menu and button under this description
+                links to page 2 of plugin
               </Card.Text>
-              <Button variant="primary" className="py-2 px-4">
-                Go somewhere
-              </Button>
+              <Link to={`/plugins/${pluginId}/test`}>
+                <Button variant="primary" className="py-2 px-4">
+                  Go to Answers
+                </Button>
+              </Link>
             </Card.Body>
           </Card>
         </div>
