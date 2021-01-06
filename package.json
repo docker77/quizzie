@@ -11,13 +11,9 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@buffetjs/core": "^3.3.3",
-    "@buffetjs/hooks": "^3.3.3",
-    "@buffetjs/styles": "^3.3.3",
     "bootstrap": "^4.5.3",
     "knex": "<0.20.0",
     "react-bootstrap": "^1.4.0",
-    "sqlite3": "^5.0.0",
     "strapi": "3.4.1",
     "strapi-admin": "3.4.1",
     "strapi-connector-bookshelf": "3.4.1",
@@ -26,7 +22,8 @@
     "strapi-plugin-email": "3.4.1",
     "strapi-plugin-upload": "3.4.1",
     "strapi-plugin-users-permissions": "3.4.1",
-    "strapi-utils": "3.4.1"
+    "strapi-utils": "3.4.1",
+    "sqlite3": "latest"
   },
   "author": {
     "name": "A Strapi developer"
