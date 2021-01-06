@@ -1,0 +1,14 @@
+{
+  "kind": "collectionType",
+  "collectionName": "importconfigs",
+  "info": {
+    "name": "importconfig"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "timestamps": true,
+    "increments": true,
+    "comment": ""
+  },
+  "attributes": {}
+}

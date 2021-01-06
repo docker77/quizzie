@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "flow-constructor.index",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
